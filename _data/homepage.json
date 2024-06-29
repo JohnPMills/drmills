@@ -1,19 +1,19 @@
 {
-    "title": "11ty-no-style-please",
-    "subtitle": "demo of a page made with 11ty-no-style-please",
-    "menu": [
+  "title": "John P. Mills",
+  "subtitle": "psychologist + open science advisor",
+  "menu": [
+    {
+      "title": "Hi, I’m John, a Psychologist and Open Science Advisor based between London and Rotterdam.",
+      "entries": [
         {
-            "title": "read more here",
-            "entries": [
-                {
-                    "title": "github",
-                    "url": "http://github.com/stopnoanime/11ty-no-style-please"
-                }
-            ]
-        },
-        {
-            "title": "all posts with the 'post' tag",
-            "post_list": "post"
+          "title": "github",
+          "url": "http://github.com/stopnoanime/11ty-no-style-please"
         }
-    ]
+      ]
+    },
+    {
+      "title": "all posts with the 'post' tag",
+      "post_list": "post"
+    }
+  ]
 }
