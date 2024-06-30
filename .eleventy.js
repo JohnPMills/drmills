@@ -23,13 +23,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.setLibrary("md", markdownLib);
 
     // Add the new configuration
-    eleventyConfig.addTemplateFormats("njk");
-
-    eleventyConfig. define('templates', [
-      {
-        input: './src/posts/index.md',
-        output: './index.html',
-        template: './src/includes/index.njk',
-      },
-    ]);
+    eleventyConfig.addTemplate({
+      'index': './src/includes/index.njk'
+    });
 };
