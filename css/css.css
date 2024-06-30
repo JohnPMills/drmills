@@ -108,3 +108,7 @@ table, th, td {
 .homepage-header .menu-section.selected-work .selected-work-entry h4 {
     margin: 0;
 }
+
+main {
+  padding-top: 2rem; /* Adjust the value as needed */
+}
