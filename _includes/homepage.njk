@@ -23,18 +23,16 @@ layout: base.njk
     </div>
     {% endif %}
 
-    {% for menuSection in homepage.menu %}
-        {% if menuSection.title == 'Selected Work' %}
-            <div class="selected-work">
-                <h3>{{ menuSection.title }}</h3>
-                {% for entry in menuSection.entries %}
-                    <div class="selected-work-entry">
-                        <h4>{{ entry.title }}</h4>
-                    </div>
-                {% endfor %}
-            </div>
-        {% endif %}
-    {% endfor %}
+    {% if homepage.selected_work %}
+        <div class="homepage-header selected-work">
+            <h3>{{ homepage.selected_work.title }}</h3>
+            {% for entry in homepage.selected_work.entries %}
+                <div class="selected-work-entry">
+                    <h4>{{ entry.title }}</h4>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
 </header>
 <main>
     <hr>
