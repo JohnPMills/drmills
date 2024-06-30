@@ -25,7 +25,7 @@ layout: base.njk
 
     {% for menuSection in homepage.menu %}
         {% if menuSection.title == 'Selected Work' %}
-            <div class="homepage-header selected-work">
+            <div class="homepage-header menu-section selected-work">
                 <h3>{{ menuSection.title }}</h3>
                 {% for entry in menuSection.entries %}
                     <div class="selected-work-entry">
