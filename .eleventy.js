@@ -22,11 +22,5 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.setLibrary("md", markdownLib);
 
-    return {
-        dir: {
-            input: '/posts',
-            output: './',
-            includes: './_includes',
-        },
-    };
+    ]);
 };
