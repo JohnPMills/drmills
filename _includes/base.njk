@@ -9,6 +9,9 @@
     <meta name="description" content="{{ site.description }}">
     {% endif %}
 
+    <meta name="keywords" content="psychologist + open science advisor">
+    <title>{{ title or site.title }}</title>
+
     <link rel="stylesheet" href="/css/css.css"> 
     {% if page.url == '/' %}
         <script>
@@ -20,11 +23,9 @@
     <header>
         <h1>{{ homepage.title or site.title }}</h1>
 
-        {% if subtitle %}
-            <h2 class="homepage-subtitle">{{ subtitle }}</h2>
+        {% if homepage.subtitle %}
+            <h2 class="homepage-subtitle">{{ homepage.subtitle }}</h2>
         {% endif %}
-
-        <h2 class="homepage-subtitle">{{ subtitle }}</h2>
 
         {% if homepage.homepage_text %}
         <style>
