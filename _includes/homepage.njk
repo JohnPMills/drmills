@@ -13,6 +13,10 @@ layout: base.njk
             {{ homepage.homepage_text | safe }}
         </div>
     {% endif %}
+
+{% if homepage.keywords %}
+        <p>Keywords: {{ homepage.keywords }}</p>
+    {% endif %}
 </header>
 <main>
     <hr>
