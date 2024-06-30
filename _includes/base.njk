@@ -20,6 +20,10 @@
     <header>
         <h1>{{ homepage.title or site.title }}</h1>
 
+        {% if subtitle %}
+            <h2 class="homepage-subtitle">{{ subtitle }}</h2>
+        {% endif %}
+
         <h2 class="homepage-subtitle">{{ subtitle }}</h2>
 
         {% if homepage.homepage_text %}
