@@ -6,6 +6,12 @@ layout: base.njk
 
     <h2 class="homepage-subtitle">{{ subtitle }}</h2>
 
+    {% if homepage.homepage_text %}
+    <div class="homepage-text">
+        {{ homepage.homepage_text | safe }}
+    </div>
+    {% endif %}
+
     {% set subtitle = homepage.subtitle%}
     {% if subtitle %}
         <p>{{ subtitle }}</p>
