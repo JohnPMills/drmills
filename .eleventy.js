@@ -1,5 +1,5 @@
 const { DateTime } = require("luxon");
-const markdownIt = require("markdown-it");
+const markdownIt = require("markdown-kit");
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("css");
@@ -22,10 +22,12 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.setLibrary("md", markdownLib);
 
-    // Add this new code block
+    // Merge keywords data into homepage data
     return {
         data: {
-            keywords: "psychologist + open science advisor"
+            homepage: {
+                keywords: "psychologist + open science advisor"
+            }
         }
     };
 };
