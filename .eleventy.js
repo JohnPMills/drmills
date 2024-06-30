@@ -21,4 +21,11 @@ module.exports = function(eleventyConfig) {
     markdownLib.renderer.rules.table_close = () => '</table>\n</div>',
 
     eleventyConfig.setLibrary("md", markdownLib);
+
+    // Add this new code block
+    return {
+        data: {
+            keywords: "psychologist + open science advisor"
+        }
+    };
 };
