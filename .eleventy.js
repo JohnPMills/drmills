@@ -1,5 +1,5 @@
 const { DateTime } = require("luxon");
-const markdownIt = require("markdown-kit");
+const markdownIt = require("markdown-it");
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("css");
