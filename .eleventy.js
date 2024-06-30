@@ -22,8 +22,11 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.setLibrary("md", markdownLib);
 
-    // Add the new configuration
-    eleventyConfig.addTemplate({
-      'index': './src/includes/index.njk'
-    });
+    return {
+        dir: {
+            input: 'src/posts',
+            output: './',
+            includes: './src/includes',
+        },
+    };
 };
