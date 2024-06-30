@@ -88,3 +88,12 @@ table, th, td {
   margin-top: 1rem;
   line-height: 1.6;
 }
+
+.homepage-header .selected-work {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
