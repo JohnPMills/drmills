@@ -4,17 +4,14 @@ layout: base.njk
 <header>
     <h1>{{ homepage.title or site.title }}</h1>
 
-    <h2 class="homepage-subtitle">{{ subtitle }}</h2>
-
-    {% set subtitle = homepage.subtitle%}
-    {% if subtitle %}
-        <p>{{ subtitle }}</p>
+    {% if homepage.subtitle %}
+        <h2 class="homepage-subtitle">{{ homepage.subtitle }}</h2>
     {% endif %}
 
-   {% if homepage.homepage_text %}
-    <div class="homepage-text">
-        {{ homepage.homepage_text | safe }}
-    </div>
+    {% if homepage.homepage_text %}
+        <div class="homepage-text">
+            {{ homepage.homepage_text | safe }}
+        </div>
     {% endif %}
 </header>
 <main>
