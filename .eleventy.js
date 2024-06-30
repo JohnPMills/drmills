@@ -21,4 +21,15 @@ module.exports = function(eleventyConfig) {
     markdownLib.renderer.rules.table_close = () => '</table>\n</div>',
 
     eleventyConfig.setLibrary("md", markdownLib);
+
+    // Add the new configuration
+    eleventyConfig.addTemplateFormats("njk");
+
+    eleventyConfig. define('templates', [
+      {
+        input: './src/posts/index.md',
+        output: './index.html',
+        template: './src/includes/index.njk',
+      },
+    ]);
 };
