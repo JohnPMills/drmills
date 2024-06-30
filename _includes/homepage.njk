@@ -1,10 +1,7 @@
 ---
 layout: base.njk
 ---
----
-layout: base.njk
----
-<header>
+<header class="homepage-header">
     <h1>{{ homepage.title or site.title }}</h1>
 
     {% if homepage.subtitle %}
@@ -12,9 +9,26 @@ layout: base.njk
     {% endif %}
 
     {% if homepage.homepage_text %}
-        <div class="homepage-text">
-            {{ homepage.homepage_text | safe }}
-        </div>
+    <style>
+        .homepage-text a {
+            color: black;
+            text-decoration: none;
+        }
+        .homepage-text a:hover {
+            font-weight: bold;
+        }
+    </style>
+    <div class="homepage-text">
+        {{ homepage.homepage_text | safe }}
+    </div>
+    {% endif %}
+
+    {% if homepage.menu %}
+        {% for menuSection in homepage.menu %}
+            {% if menuSection.title == 'Selected Work' %}
+                <h3 class="selected-work">{{ menuSection.title }}</h3>
+            {% endif %}
+        {% endfor %}
     {% endif %}
 </header>
 <main>
