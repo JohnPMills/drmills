@@ -20,7 +20,8 @@
     {% endif %}
 </head>
 <body>
-    <header>
+    <body>
+    <header class="homepage-header">
         <h1>{{ homepage.title or site.title }}</h1>
 
         {% if homepage.subtitle %}
@@ -47,5 +48,6 @@
         {% set entries = homepage.menu %}
         {% include "menu.njk" %}
     </main>
+</body>
 </body>
 </html>
