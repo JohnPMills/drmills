@@ -82,3 +82,9 @@ table, th, td {
   font-size: 1.2rem;
   margin-top: 0.5rem;
 }
+
+.homepage-text {
+  font-size: 1rem;
+  margin-top: 1rem;
+  line-height: 1.6;
+}
