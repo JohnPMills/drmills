@@ -89,7 +89,7 @@ table, th, td {
   line-height: 1.6;
 }
 
-.homepage-header .selected_work {
+.homepage-header .menu-section.selected-work {
     background-color: black;
     color: white;
     padding: 1rem;
@@ -97,14 +97,14 @@ table, th, td {
     margin-top: 2rem;
 }
 
-.homepage-header .selected_work h3 {
+.homepage-header .menu-section.selected-work h3 {
     margin-top: 0;
 }
 
-.homepage-header .selected_work-entry {
+.homepage-header .menu-section.selected-work .selected-work-entry {
     margin-bottom: 1rem;
 }
 
-.homepage-header .selected_work-entry h4 {
+.homepage-header .menu-section.selected-work .selected-work-entry h4 {
     margin: 0;
 }
