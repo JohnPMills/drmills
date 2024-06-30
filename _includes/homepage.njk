@@ -1,12 +1,12 @@
 ---
 layout: base.njk
-subtitle: {{ homepage.subtitle }}
+subtitle: {{ subtitle }}
 ---
 <header>
     <h1>{{ homepage.title or site.title }}</h1>
 
-    {% if homepage.subtitle %}
-        <h2 class="homepage-subtitle">{{ homepage.subtitle }}</h2>
+    {% if subtitle %}
+        <h2 class="homepage-subtitle">{{ subtitle }}</h2>
     {% endif %}
 
     {% if homepage.homepage_text %}
@@ -14,7 +14,6 @@ subtitle: {{ homepage.subtitle }}
             {{ homepage.homepage_text | safe }}
         </div>
     {% endif %}
-
 </header>
 <main>
     <hr>
