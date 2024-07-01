@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="{{ site.language }}">
 <head>
@@ -20,39 +21,34 @@
     {% endif %}
 </head>
 <body>
-    <header class="site-header">
-        <h1>{{ .hompage-title }}</h1>
-        {% if site.subtitle %}
-            <h2 class="site-subtitle">{{ .homepage-subtitle }}</h2>
+    <body>
+    <header class="homepage-header">
+        <h1>{{ homepage.title or site.title }}</h1>
+
+        {% if homepage.subtitle %}
+            <h2 class="homepage-subtitle">{{ homepage.subtitle }}</h2>
+        {% endif %}
+
+        {% if homepage.homepage_text %}
+        <style>
+            .homepage-text a {
+                color: black;
+                text-decoration: none;
+            }
+            .homepage-text a:hover {
+                font-weight: bold;
+            }
+        </style>
+        <div class="homepage-text">
+            {{ homepage.homepage_text | safe }}
+        </div>
         {% endif %}
     </header>
-
-    <nav>
-        {% set entries = site.navigation %}
-        {% include "menu.njk" %}
-    </nav>
-
     <main>
-        {% if page.url == '/' %}
-            <div class="homepage-content">
-                {% if homepage.homepage_text %}
-                    <div class="homepage-text">
-                        {{ homepage.homepage_text | safe }}
-                    </div>
-                {% endif %}
-            </div>
-        {% else %}
-            <h1>{{ title }}</h1>
-            {{ content | safe }}
-        {% endif %}
-
         <hr>
         {% set entries = homepage.menu %}
         {% include "menu.njk" %}
     </main>
-
-    <footer>
-        <!-- Add your footer content here -->
-    </footer>
+</body>
 </body>
 </html>
