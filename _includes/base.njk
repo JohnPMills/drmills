@@ -21,9 +21,9 @@
 </head>
 <body>
     <header class="site-header">
-        <h1>{{ site.title }}</h1>
+        <h1>{{ .hompage-title }}</h1>
         {% if site.subtitle %}
-            <h2 class="site-subtitle">{{ site.subtitle }}</h2>
+            <h2 class="site-subtitle">{{ .homepage-subtitle }}</h2>
         {% endif %}
     </header>
 
