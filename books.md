@@ -1,7 +1,6 @@
 ---
 layout: base.njk
 title: Books
-subtitle: Text
 permalink: /books/
 ---
 
