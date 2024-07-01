@@ -1,5 +1,4 @@
-
-/* Add this at the top of your css.css file */
+/* Font faces */
 @font-face {
   font-family: 'Inter Extra Light';
   src: url('../media/fonts/Inter-ExtraLight.woff2') format('woff2'),
@@ -16,7 +15,7 @@
   font-style: normal;
 }
 
-/* The existing HTML and typography styles */
+/* General styles */
 html {
   max-width: 80ch;
   padding: 3em 1em;
@@ -29,44 +28,51 @@ html {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Inter", sans-serif;
   font-weight: bold;
+  margin: 1em 0 0.5em; /* Reduced top and bottom margins */
 }
 
 p, ul, ol {
   margin-bottom: 1em;
   color: #1d1d1d;
 }
-}
 
+/* Post meta */
 .post-meta {
-    text-align: right;
+  text-align: right;
 }
 
+/* Images */
 img {
-    max-width: 100%;
-    margin: 0 auto;
-    display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
 }
 
+/* Blockquotes */
 blockquote {
-    font-style: italic;
-    border: thin solid black;
-    padding: 1rem;
+  font-style: italic;
+  border: thin solid black;
+  padding: 1rem;
 }
 
 blockquote p {
-    margin: 0;
+  margin: 0;
 }
 
+/* Code blocks */
 pre {
-    overflow-x: auto;
-    padding: 1rem;
+  overflow-x: auto;
+  padding: 1rem;
 }
 
 pre, code {
-    background: #e0e0e0;
+  background: #e0e0e0;
 }
 
-table { width: 100%; }
+/* Tables */
+table { 
+  width: 100%; 
+}
 
 table, th, td {
   border: thin solid black;
@@ -75,13 +81,18 @@ table, th, td {
 }
 
 .table-wrapper {
-    overflow-x: auto;
+  overflow-x: auto;
+}
+
+/* Homepage styles */
+.site-header h1 {
+  margin-bottom: 0.25rem; /* Reduced bottom margin for title */
 }
 
 .homepage-subtitle {
   font-size: 1.2rem;
   margin-top: 0;
-  line-height: 2.5;
+  line-height: 1.5; /* Reduced line height */
 }
 
 .homepage-text {
@@ -91,27 +102,26 @@ table, th, td {
 }
 
 .homepage-header .menu-section.selected-work {
-    background-color: black;
-    color: white;
-    padding: 1rem;
-    border-radius: 4px;
-    margin-top: 2rem;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 2rem;
 }
 
 .homepage-header .menu-section.selected-work h3 {
-    margin-top: 2rem;
+  margin-top: 0; /* Changed from 2rem to 0 */
 }
 
 .homepage-header .menu-section.selected-work .selected-work-entry {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .homepage-header .menu-section.selected-work .selected-work-entry h4 {
-    margin: 0;
+  margin: 0;
 }
 
-.site-header h1 {
-            margin-bottom: 0.5rem;
+/* Main content */
 main {
   padding-top: 2rem; 
 }
