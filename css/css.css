@@ -1,5 +1,4 @@
 
-
 /* Add this at the top of your css.css file */
 @font-face {
   font-family: 'Inter Extra Light';
@@ -82,8 +81,7 @@ table, th, td {
 
 .homepage-subtitle {
   font-size: 1.2rem;
-  margin-top: 0;
-  line-height: 2.5;
+  margin-top: 0.5rem;
 }
 
 .homepage-text {
@@ -112,8 +110,6 @@ table, th, td {
     margin: 0;
 }
 
-.site-header h1 {
-            margin-bottom: 0.5rem;
 main {
-  padding-top: 2rem; 
+  padding-top: 2rem; /* Adjust the value as needed */
 }
