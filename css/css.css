@@ -101,7 +101,7 @@ table, th, td {
 }
 
 .homepage-header .menu-section.selected-work h3 {
-    margin-top: 2rem;
+    margin-top: 0;
 }
 
 .homepage-header .menu-section.selected-work .selected-work-entry {
