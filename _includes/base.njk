@@ -45,6 +45,10 @@
             <h1>{{ title }}</h1>
             {{ content | safe }}
         {% endif %}
+
+        <hr>
+        {% set entries = homepage.menu %}
+        {% include "menu.njk" %}
     </main>
 
     <footer>
