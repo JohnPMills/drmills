@@ -85,7 +85,7 @@ table, th, td {
 }
 
 /* Homepage styles */
-.site-header h1 {
+.homepage-title h1 {
   margin-bottom: 0.25rem; /* Reduced bottom margin for title */
 }
 
