@@ -23,7 +23,7 @@
     <header class="site-header">
         <h1>{{ site.title }}</h1>
         {% if site.subtitle %}
-            <h2 class="site-subtitle">{{ site.subtitle }}</h2>
+            <h2 class="homepage-subtitle">{{ homepage.subtitle }}</h2>
         {% endif %}
     </header>
 
@@ -45,10 +45,10 @@
             <h1>{{ title }}</h1>
             {{ content | safe }}
         {% endif %}
-    </main>
 
-    <footer>
-        <!-- Add your footer content here -->
-    </footer>
+        <hr>
+        {% set entries = homepage.menu %}
+        {% include "menu.njk" %}
+    </main>
 </body>
 </html>
