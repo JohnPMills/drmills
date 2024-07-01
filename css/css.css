@@ -1,3 +1,4 @@
+
 /* Add this at the top of your css.css file */
 @font-face {
   font-family: 'Inter Extra Light';
@@ -26,7 +27,7 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 1em 0 1em;
+  margin: 2em 0 1em;
   font-family: "Inter", sans-serif;
   font-weight: bold;
 }
@@ -80,7 +81,8 @@ table, th, td {
 
 .homepage-subtitle {
   font-size: 1.2rem;
-  margin-top: 0.1rem;
+  margin-top: 0;
+  line-height: 2.5;
 }
 
 .homepage-text {
@@ -102,13 +104,15 @@ table, th, td {
 }
 
 .homepage-header .menu-section.selected-work .selected-work-entry {
-    margin-bottom: 0;
+    margin-bottom: 1rem;
 }
 
 .homepage-header .menu-section.selected-work .selected-work-entry h4 {
     margin: 0;
 }
 
+.site-header h1 {
+            margin-bottom: 0.5rem;
 main {
   padding-top: 2rem; 
 }
