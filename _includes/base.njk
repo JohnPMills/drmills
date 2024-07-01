@@ -49,6 +49,8 @@
         <hr>
         {% set entries = homepage.menu %}
         {% include "menu.njk" %}
+        
+        {{ content | safe }}
     </main>
 </body>
 </body>
