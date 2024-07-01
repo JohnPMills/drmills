@@ -1,6 +1,7 @@
 ---
 layout: base.njk
 title: Books
+permalink: /books/
 ---
 
 # Books
