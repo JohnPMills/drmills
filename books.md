@@ -1,5 +1,5 @@
 ---
-layout: base.njk
+layout: base-static.njk
 title: Books
 permalink: /books/
 ---
