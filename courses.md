@@ -1,10 +1,10 @@
 ---
 layout: base-static.njk
-title: Employment
-permalink: /employment/
+title: Courses
+permalink: /courses/
 ---
 
-##Employment History
+##Courses I have taught
 | Course                                                    | Years     |
 | --------------------------------------------------------- | --------- |
 | Masterclasses in Coaching (Lead), MSc                     | 2020-2023 |
