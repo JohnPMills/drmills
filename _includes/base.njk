@@ -20,13 +20,6 @@
     {% endif %}
 </head>
 <body>
-    <header class="site-header">
-        <h1>{{ homepage.title or site.title }}</h1>
-        {% if site.subtitle %}
-           <h2 class="homepage-subtitle">{{ homepage.subtitle }}</h2>
-        {% endif %}
-    </header>
-
     <nav>
         {% set entries = site.navigation %}
         {% include "menu.njk" %}
@@ -45,10 +38,6 @@
             <h1>{{ title }}</h1>
             {{ content | safe }}
         {% endif %}
-
-        <hr>
-        {% set entries = homepage.menu %}
-        {% include "menu.njk" %}
     </main>
 </body>
 </html>
