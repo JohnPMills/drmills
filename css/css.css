@@ -18,7 +18,7 @@
 /* General styles */
 html {
   max-width: 80ch;
-  padding: 2em 1em;
+  padding: 1em 1em;
   margin: auto;
   line-height: 1.75;
   font-size: 1.4em;
@@ -123,5 +123,5 @@ table, th, td {
 
 /* Main content */
 main {
-  padding-top: 2rem; 
+  padding-top: 1rem; 
 }
