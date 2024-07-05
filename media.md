@@ -3,6 +3,7 @@ layout: base-static.njk
 title: Media
 permalink: /media/
 ---
+<h1>Media</h1>
 [Home](https://johnmills.netlify.app)
 
 1.  2021
