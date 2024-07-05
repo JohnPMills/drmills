@@ -4,7 +4,6 @@ title: Courses
 permalink: /courses/
 ---
 [Home](https://johnmills.netlify.app)
-<div style="overflow-x:auto;">
 | Course                                                    | Years     |
 | --------------------------------------------------------- | --------- |
 | Masterclasses in Coaching (Lead), MSc                     | 2020-2023 |
@@ -35,4 +34,3 @@ permalink: /courses/
 | Group Dynamics (Lead)                                     | 2012-2013 |
 | Foundations of Sport and Exercise (Lead)                  | 2012-2013 |
 | Psychobiology and cognition (Lead)                        | 2011-2012 |
-</div>
