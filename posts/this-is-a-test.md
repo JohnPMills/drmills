@@ -5,6 +5,7 @@ tags:
   - post
   - writing
 ---
+[Home](https://johnmills.netlify.app)
 I﻿f by some chance you have stumbled across this site, hopefully this post will help it make some sense. Given that I am not promoting this post to Twitter/X, recording a YouTube video or guesting on a podcast to discuss, the chances of you finding this are quite slim. I am okay if it is just me and now you that read this. 
 
 Ever since I was a child, I have found writing therapeutic. Be it poems, songs, stories or anything else, I like expressing myself in written form. I find it hard to live in the present, but it is hard not to be present when writing. Thinking about how to get in keywords or how to phrase the title to maximise views, citations, h-indexes, altmetric scores detracts from the present. It forces you to think into the future. I don't want to do that here.
