@@ -2,11 +2,14 @@
 layout: base-static.njk
 ---
 <article>
-  <p class="post-meta">
-    <time datetime="{{ page.date }}">{{ page.date | formatDate }}</time>
-  </p>
-  
-  <h1>{{ title }}</h1>
-  
-  {{ content | safe  }}
+  <header>
+    <p class="post-meta">
+      <time datetime="{{ page.date }}">{{ page.date | formatDate }}</time>
+    </p>
+    <h1>{{ title }}</h1>
+  </header>
+
+  <div class="post-content">
+    <!-- Your article content goes here -->
+  </div>
 </article>
