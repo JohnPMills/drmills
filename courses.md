@@ -3,7 +3,7 @@ layout: base-static.njk
 title: Courses
 permalink: /courses/
 ---
-[Home](johnmills.netlify.app)
+[Home](https://johnmills.netlify.app)
 | Course                                                    | Years     |
 | --------------------------------------------------------- | --------- |
 | Masterclasses in Coaching (Lead), MSc                     | 2020-2023 |
