@@ -125,3 +125,8 @@ table, th, td {
 main {
   padding-top: 1rem; 
 }
+
+footer[data-layout="footer"] {
+  border-top: 1px solid #000; /* Solid black line */
+  padding-top: 1rem; /* Add some space above the line */
+}
