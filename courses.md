@@ -3,8 +3,7 @@ layout: base-static.njk
 title: Courses
 permalink: /courses/
 ---
-
-##Courses I have taught
+[Home](johnmills.netlify.app)
 | Course                                                    | Years     |
 | --------------------------------------------------------- | --------- |
 | Masterclasses in Coaching (Lead), MSc                     | 2020-2023 |
