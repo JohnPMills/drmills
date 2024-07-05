@@ -9,7 +9,5 @@ layout: base-static.njk
     <h1>{{ title }}</h1>
   </header>
 
-  <div class="post-content">
-    <!-- Your article content goes here -->
-  </div>
+ {{ content | safe  }}
 </article>
