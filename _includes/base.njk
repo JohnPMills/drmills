@@ -50,6 +50,10 @@
         <hr>
         {% set entries = homepage.menu %}
         {% include "menu.njk" %}
+
+{# {%- for section in collections.sections -%}
+          {% include "_section.njk" %}
+        {%- endfor -%} #}
     </main>
 {% include "_footer.njk" %}
 </body>
