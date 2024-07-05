@@ -4,6 +4,7 @@ title: Talks
 permalink: /talks/
 ---
 [Home](https://johnmills.netlify.app)
+<h1>Academic Talks</h1>
 
 1.  Paoletti, V., Mayglothling, T., & Mills, J.P. (2022). Exploring the psychological well-being of Female Italian and British athletes in the build up to the Tokyo Olympics. FEPSAC, Padova, Italy.
 
@@ -37,7 +38,7 @@ permalink: /talks/
 
 16. Mills, J. P. (2013, December 18). Measuring leaders’ implicit biases towards authentic and pseudo-transformational leadership values. In British Psychological Society, Division of Sport and Exercise Psychology Conference. Manchester.
 
-## Non-Academic Talks
+<h2>Non-Academic Talks</h2> 
 
 1.  2021
     Yeovil Town FC (Invited Talk), Developing Team Working Skills
