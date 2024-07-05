@@ -27,14 +27,6 @@
     </nav>
 
     <main>
-        {% if page.url == '/' %}
-            <div class="homepage-content">
-                {% if homepage.homepage_text %}
-                    <div class="homepage-text">
-                        {{ homepage.homepage_text | safe }}
-                    </div>
-                {% endif %}
-            </div>
         {% else %}
             <h1>{{ title }}</h1>
             {{ content | safe }}
