@@ -11,20 +11,29 @@
       "url": "/"
     },
     {
-      "title": "About",
-      "url": "/about/"
+      "title": "Papers",
+      "url": "/papers/"
     },
     {
-      "title": "Blog",
-      "url": "/blog/"
+      "title": "Media",
+      "url": "/media/"
     },
     {
       "title": "Books",
       "url": "/books/"
     },
     {
-      "title": "Contact",
-      "url": "/contact/"
+      "title": "Courses",
+      "url": "/courses/"
+    }
+      },
+    {
+      "title": "Employment",
+      "url": "/employment/"
+    },
+      {
+      "title": "Blog",
+      "url": "/blog/"
     }
   ]
 }
