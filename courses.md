@@ -3,8 +3,6 @@ layout: base-static.njk
 title: Courses
 permalink: /courses/
 ---
-[Home](https://johnmills.netlify.app)
-<h1>Courses</h1>
 
 | Course                                                    | Years     |
 | --------------------------------------------------------- | --------- |
