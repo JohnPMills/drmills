@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="{{ eleventy.generator }}">
 
+<nav>
+        {% set entries = site.navigation %}
+        {% include "menu.njk" %}
+    </nav>
+
     {% if site.description %}
     <meta name="description" content="{{ site.description }}">
     {% endif %}
@@ -22,12 +27,7 @@
 
 </head>
 <body>
-    <nav>
-        {% set entries = site.navigation %}
-        {% include "menu.njk" %}
-    </nav>
-
-    <main>
+       <main>
 {% if page.url == '/' %}
             <div class="homepage-content">
                 {% if homepage.homepage_text %}
@@ -42,8 +42,7 @@
 <footer data-layout="footer">
       <p>
   &#169;2024 John P. Mills </p>
-  <p>A work in progress, built with <a href="https://www.11ty.dev/">Eleventy</a>.</p>
-</footer>
+ </footer>
     </main>
 </body>
 </html>
