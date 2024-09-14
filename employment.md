@@ -4,9 +4,6 @@ title: Employment
 permalink: /employment/
 ---
 
-[Home](https://johnmills.netlify.app)
-<h1>Employment</h1>
-
 | Position                                                                          | Years       |
 | --------------------------------------------------------------------------------- | ----------- |
 | Erasmus University Rotterdam – Open Science Advisor                               | 2023 -      |
