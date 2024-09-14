@@ -19,6 +19,13 @@
             if(location.hash) window.location = `/admin/#${location.href.split("#").pop()}`
         </script>
     {% endif %}
+
+ <!-- Include the menu -->
+    {% if menuData %}
+        {% include "menu.njk" with { "entries": menuData } %}
+    {% else %}
+        <p>No menu data found.</p>
+    {% endif %}
 </head>
 <body>
     <nav>
