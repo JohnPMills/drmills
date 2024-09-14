@@ -2,6 +2,15 @@
 layout: base-static.njk
 title: Books
 permalink: /books/
+menuData:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Blog
+    url: /blog/
+  - title: Contact
+    url: /contact/
 ---
 [Home](https://johnmills.netlify.app)
 <h1>Books</h1>
