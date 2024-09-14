@@ -5,4 +5,33 @@
   "language": "en",
   "back_home_text": "🏠",
   "url": "https://johnmills.netlify.app"
+}{
+  "title": "John P. Mills",
+  "subtitle": "Psychologist/Open Science Advisor",
+  "description": "The personal website of Dr John P. Mills, BPS Chartered Psychologist and Open Science Advisor.",
+  "language": "en",
+  "back_home_text": "🏠",
+  "url": "https://johnmills.netlify.app",
+  "navigation": [
+    {
+      "title": "Home",
+      "url": "/"
+    },
+    {
+      "title": "About",
+      "url": "/about/"
+    },
+    {
+      "title": "Blog",
+      "url": "/blog/"
+    },
+    {
+      "title": "Books",
+      "url": "/books/"
+    },
+    {
+      "title": "Contact",
+      "url": "/contact/"
+    }
+  ]
 }
