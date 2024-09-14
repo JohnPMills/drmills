@@ -3,8 +3,7 @@ layout: base-static.njk
 title: Media
 permalink: /media/
 ---
-[Home](https://johnmills.netlify.app)
-<h1>Media</h1>
+
 1.  2021
     BBC Documentary (Academic Expert), Do Black Lives Still Matter?
 
