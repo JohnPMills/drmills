@@ -131,3 +131,37 @@ footer[data-layout="footer"] {
   border-top: 1px solid #000; /* Solid black line */
   padding-top: 0.5rem; /* Add some space above the line */
 }
+
+/* Style the menu container */
+ul.menu {
+    list-style: none;               /* Remove bullet points */
+    padding: 0;                     /* Remove padding */
+    margin: 0;                      /* Remove margins */
+    display: flex;                  /* Display items horizontally */
+    justify-content: center;        /* Center menu horizontally across the page */
+}
+
+/* Style individual menu items */
+ul.menu li {
+    margin-right: 20px;             /* Add spacing between menu items */
+    font-weight: bold;              /* Make the text bold */
+}
+
+/* Remove the last item's margin */
+ul.menu li:last-child {
+    margin-right: 0;
+}
+
+/* Style the links inside the menu */
+ul.menu li a {
+    text-decoration: none;          /* Remove underline from links */
+    color: #000;                    /* Set the text color */
+    font-weight: bold;              /* Bold text */
+    font-size: 16px;                /* Set font size */
+}
+
+/* Optional: Add hover effect to the links */
+ul.menu li a:hover {
+    color: #007bff;                 /* Change color on hover */
+}
+
