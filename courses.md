@@ -4,7 +4,7 @@ title: Courses
 permalink: /courses/
 ---
 
-| Course                                                    | Years     |
+| Course Taught                                             | Years     |
 | --------------------------------------------------------- | --------- |
 | Masterclasses in Coaching (Lead), MSc                     | 2020-2023 |
 | Teaching and Learning Through Sport (Lead)                | 2019-2023 |
