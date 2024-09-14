@@ -32,7 +32,7 @@
     },
     {
       "title": "Blog",
-      "url": "/blog/"
+      "url": "/posts/index.md/"
     }
   ]
 }
