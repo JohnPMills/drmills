@@ -3,8 +3,6 @@ layout: base-static.njk
 title: Talks
 permalink: /talks/
 ---
-[Home](https://johnmills.netlify.app)
-<h1>Academic Talks</h1>
 
 1.  Paoletti, V., Mayglothling, T., & Mills, J.P. (2022). Exploring the psychological well-being of Female Italian and British athletes in the build up to the Tokyo Olympics. FEPSAC, Padova, Italy.
 
