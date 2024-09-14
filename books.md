@@ -12,8 +12,6 @@ menuData:
   - title: Contact
     url: /contact/
 ---
-[Home](https://johnmills.netlify.app)
-<h1>Books</h1>
 
 Here are some of the books I have written or contributed to:
 
